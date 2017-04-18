@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/material_margin"
+    android:paddingLeft="@dimen/material_margin"
+    android:paddingRight="@dimen/material_margin"
+    android:paddingTop="@dimen/material_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:showIn="@layout/museum_activity">
+
+    <ImageView
+        android:id="@+id/nav_header_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/material_margin"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/material_margin"
+        android:text="@string/museum_activity_rijks_museum"
+        android:textColor="@color/gray0"
+        android:textSize="@dimen/text_headline"/>
+
+</LinearLayout>

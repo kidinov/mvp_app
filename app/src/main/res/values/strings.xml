@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Rijks Museum</string>
+
+    <!--GENERIC-->
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_error_title">Sorry</string>
+    <string name="error_text">Error happened</string>
+    <string name="retry">Retry</string>
+    <string name="network_error">Please check your internet connection</string>
+
+    <!--MUSEUM-->
+    <string name="museum_activity_rijks_museum">Rijks Museum</string>
+    <string name="museum_activity_navigation_drawer_open">Open navigation drawer</string>
+    <string name="museum_activity_navigation_drawer_close">Close navigation drawer</string>
+    <string name="museum_activity_agenda">Agenda</string>
+    <string name="museum_activity_our_collection">Our Collection</string>
+    <string name="museum_activity_auth_error">Authentication Error</string>
+
+</resources>
